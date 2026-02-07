@@ -12,9 +12,9 @@ export default function ProjectCover({
   bgImage,          // NEW: background image URL (e.g. "/src/assets/fnb-estore.png")
   openInNewTab = false, // NEW: default open in new tab (nice for portfolio cards)
 }) {
-  const targetProps = openInNewTab
-    ? { target: "_blank", rel: "noreferrer noopener" }
-    : {};
+const targetProps = openInNewTab
+  ? { target: "_blank", rel: "noreferrer noopener" }
+  : { target: "_top" };
 
   return (
     <motion.a
