@@ -1,5 +1,20 @@
-.covers-grid {
+/* CoversGrid.css */
+
+.coversPage {
+  padding: clamp(16px, 3vw, 40px);
+}
+
+.coversGrid {
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 32px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(14px, 2vw, 24px);
+}
+
+/* Mobile: 1 column */
+@media (max-width: 768px) {
+  .coversGrid {
+    grid-template-columns: 1fr;
+  }
 }
