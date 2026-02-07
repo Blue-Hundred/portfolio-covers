@@ -31,7 +31,7 @@ export const projects = [
     metricLabel: "Improved trust & reduced checkout friction",
     role: "Lead UX Designer",
     tags: ["Checkout", "Wallet Payments", "Research", "Mobile UX"],
-    link: "https://tamaredesign.com/portfolio-item/bath-and-body-works-applepay-integration/",
+    link: "https://tamaredesign.com/portfolio-item/bath-and-works-applepay-integration/",
     bgImage: bbwApplePayImg,
   },
   {
@@ -41,7 +41,7 @@ export const projects = [
     metricLabel: "Sales growth in first 9 weeks (Q2 2021)",
     role: "Senior UX Designer",
     tags: ["Omnichannel", "Fulfillment", "Mobile-First", "MVP"],
-    link: "https://tamaredesign.com/portfolio-item/bath-and-body-works-bopis/",
+   link: "https://tamaredesign.com/portfolio-item/bath-and-body-works-bopis/",
     bgImage: bbwBopisImg,
   },
 ];
