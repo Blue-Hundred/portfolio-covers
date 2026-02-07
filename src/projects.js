@@ -21,5 +21,6 @@ export const projects = [
     tags: ["Service Design", "Modernization", "Ops UX", "Omnichannel"],
     link: "https://tamaredesign.com/portfolio-item/key-bank-disputes-modernization/",
     bgImage: keybankImg,
+    
   },
 ];

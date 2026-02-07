@@ -10,7 +10,7 @@ export default function ProjectCover({
   tags = [],
   link,
   bgImage,          // NEW: background image URL (e.g. "/src/assets/fnb-estore.png")
-  openInNewTab = true, // NEW: default open in new tab (nice for portfolio cards)
+  openInNewTab = false, // NEW: default open in new tab (nice for portfolio cards)
 }) {
   const targetProps = openInNewTab
     ? { target: "_blank", rel: "noreferrer noopener" }
