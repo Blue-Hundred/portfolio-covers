@@ -9,24 +9,22 @@ export default function ProjectCover({
   role,
   tags = [],
   link,
-  bgImage,          // NEW: background image URL (e.g. "/src/assets/fnb-estore.png")
-  openInNewTab = false, // NEW: default open in new tab (nice for portfolio cards)
+  bgImage,
 }) {
-const targetProps = openInNewTab
-  ? { target: "_blank", rel: "noreferrer noopener" }
-  : { target: "_top" };
-
   return (
     <motion.a
       href={link}
       className="project-cover"
       whileHover="hover"
+      whileTap={{ scale: 0.98 }}
       initial="rest"
       animate="rest"
       aria-label={`View case study: ${title}`}
-      {...targetProps}
+      title={`Open case study: ${title}`}
+      target="_blank"
+      rel="noopener noreferrer"
     >
-      {/* NEW: Background layer */}
+      {/* Background image layer */}
       {bgImage ? (
         <motion.div
           className="bg-image"
@@ -39,7 +37,7 @@ const targetProps = openInNewTab
         />
       ) : null}
 
-      {/* NEW: Overlay to ensure text contrast */}
+      {/* Contrast overlay */}
       <div className="bg-overlay" />
 
       <div className="cover-content">

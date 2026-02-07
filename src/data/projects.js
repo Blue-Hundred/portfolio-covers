@@ -4,7 +4,6 @@ import bbwApplePayImg from "../assets/bbw-applepay.png";
 import bbwBopisImg from "../assets/bbw-bopis.png";
 
 export const projects = [
-  // COVER 1
   {
     title: "First National Bank eStore",
     subtitle: "Digital account opening & e-commerce platform",
@@ -14,10 +13,7 @@ export const projects = [
     tags: ["Platform", "Growth", "Compliance"],
     link: "https://tamaredesign.com/portfolio-item/first-national-bank-estore/",
     bgImage: fnbImg,
-    openInNewTab: false,
   },
-
-  // COVER 2
   {
     title: "KeyBank Disputes Modernization",
     subtitle: "Transforming the end-to-end dispute experience",
@@ -27,10 +23,7 @@ export const projects = [
     tags: ["Service Design", "Modernization", "Ops UX", "Omnichannel"],
     link: "https://tamaredesign.com/portfolio-item/key-bank-disputes-modernization/",
     bgImage: keybankImg,
-    openInNewTab: false,
   },
-
-  // COVER 3
   {
     title: "Bath & Body Works Apple Pay Integration",
     subtitle: "Modernizing mobile checkout for scale, trust, and clarity",
@@ -40,10 +33,7 @@ export const projects = [
     tags: ["Checkout", "Wallet Payments", "Research", "Mobile UX"],
     link: "https://tamaredesign.com/portfolio-item/bath-and-body-works-applepay-integration/",
     bgImage: bbwApplePayImg,
-    openInNewTab: false,
   },
-
-  // COVER 4
   {
     title: "Bath & Body Works BOPIS",
     subtitle: "Creating the buy online, pickup in store experience",
@@ -53,6 +43,5 @@ export const projects = [
     tags: ["Omnichannel", "Fulfillment", "Mobile-First", "MVP"],
     link: "https://tamaredesign.com/portfolio-item/bath-and-body-works-bopis/",
     bgImage: bbwBopisImg,
-    openInNewTab: false,
   },
 ];
