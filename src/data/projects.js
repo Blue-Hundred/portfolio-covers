@@ -14,6 +14,7 @@ export const projects = [
     tags: ["Platform", "Growth", "Compliance"],
     link: "https://tamaredesign.com/portfolio-item/first-national-bank-estore/",
     bgImage: fnbImg,
+    openInNewTab: false,
   },
 
   // COVER 2
@@ -26,6 +27,7 @@ export const projects = [
     tags: ["Service Design", "Modernization", "Ops UX", "Omnichannel"],
     link: "https://tamaredesign.com/portfolio-item/key-bank-disputes-modernization/",
     bgImage: keybankImg,
+    openInNewTab: false,
   },
 
   // COVER 3
@@ -36,8 +38,9 @@ export const projects = [
     metricLabel: "Improved trust & reduced checkout friction",
     role: "Lead UX Designer",
     tags: ["Checkout", "Wallet Payments", "Research", "Mobile UX"],
-    link: "https://tamaredesign.com/portfolio-item/bath-body-works-applepay-integration/",
+    link: "https://tamaredesign.com/portfolio-item/bath-and-body-works-applepay-integration/",
     bgImage: bbwApplePayImg,
+    openInNewTab: false,
   },
 
   // COVER 4
@@ -48,7 +51,8 @@ export const projects = [
     metricLabel: "Sales growth in first 9 weeks (Q2 2021)",
     role: "Senior UX Designer",
     tags: ["Omnichannel", "Fulfillment", "Mobile-First", "MVP"],
-    link: "https://tamaredesign.com/portfolio-item/bath-body-works-bopis/",
+    link: "https://tamaredesign.com/portfolio-item/bath-and-body-works-bopis/",
     bgImage: bbwBopisImg,
+    openInNewTab: false,
   },
 ];
